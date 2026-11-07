@@ -1,7 +1,6 @@
-import axios from 'axios';
+import axios from "axios";
 
-// const API_BASE_URL = "http://127.0.0.1:5000/api";
-const API_BASE_URL = "http://192.168.29.132:5000/api";
+const API_BASE_URL = "http://localhost:5000/api";
 
 export const Askgemini = async (prompt) => {
   try {
